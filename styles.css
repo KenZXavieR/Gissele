@@ -1,0 +1,156 @@
+* {
+   font-family: 'Courgette', cursive,serif;
+   margin-left: 0;
+   border: 0;
+   /* color: aliceblue;
+   background-color: #050202; */
+ }
+
+/* .container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+} */
+
+.certificates{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certificates img{
+    width: 50%;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #050202;
+    border-radius: 10px;
+}
+
+
+.services ul{
+   list-style: none;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.container .img-profile{
+   border-radius: 50%;
+   width: 80%;
+   height: 80%; 
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ /* .container .profile{
+    width: 40%;
+    order: 2;
+ } */
+
+ /* .container .profile img{
+    border-radius: 50%;
+    width: 100%;
+ } */
+
+.intro{
+   display: flex;
+   text-align: left;
+   flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ .intro input{
+   float: left;
+ } 
+
+ .container span{
+    font-size: 1.5em;
+ }
+
+ 
+ .about{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+ }
+
+ .services{
+    margin: 50px;
+ }
+ 
+
+ /* footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } */
+
+ .contact{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+ }
+
+ .form-container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+ }
+
+
+
+ 
+
+ .form-group{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5px;
+
+    padding: 10px;
+ }
+
+ .contact h3{
+    display: block;
+ }
+
+
+ input{
+    width: 80%;
+    border: 2px solid black;
+    
+ }
+ textarea{
+    width: 80%;
+    border: 2px solid black;
+ }
+
+ .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+ }
+ .contact-info p{
+   font-size: 1rem;
+ }
